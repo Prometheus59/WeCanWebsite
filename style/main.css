@@ -1,7 +1,21 @@
+/* Header */
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.header img {
+    height: 10%;
+    margin: 12px;
+}
+
+/* Navigation Menu */
+
 .menu {
     position: relative;
     top:20%;
-    background-color: #333;
+    background-color: royalblue;
     overflow: hidden;
 }
 
@@ -16,7 +30,7 @@
 }
 
 .menu a:hover {
-    background-color: #444;
+    background-color: rgb(39, 82, 212);
     color: white;
 }
 
@@ -25,36 +39,28 @@
     color: white;
 }
 
-.header {
-    display: flex;
-    position: relative;
-    align-items: center;
-}
-
-.header img {
-    height: 10%;
-    margin: 12px;
-}
+/* About us */
 
 #aboutUs img {
     width: 100%;
 }
 
-
+/* Contact Button */
 
 #contact-btn {
 margin-left: auto;
-margin-right: 30px;
+margin-right: 40px;
 background: royalblue;
 color: white;
-padding: 15px;
+padding: 10px;
 border: none;
-border-radius: 40%;
+border-radius: 4px;
+cursor: pointer;
 }
 
 #contact-btn:hover {
     transition-duration: 0.4s;
-    background-color: skyblue; /* Green */
+    background-color: rgb(20, 67, 207);
     color: black;
 }
 
