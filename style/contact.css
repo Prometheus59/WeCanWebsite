@@ -6,10 +6,12 @@
 
 form {
     border: solid 2px royalblue;
-    width: 30%;
+    width: 25%;
     margin-top: 25px;
     margin-left: 20px;
     padding: 10px;
+    height: 70%;
+    overflow: auto;
 }
 
 .contact-info {
