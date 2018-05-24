@@ -1,0 +1,17 @@
+#aboutUs {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#aboutUs img {
+    width: 100%;
+    text-align: center;
+}
+
+#aboutUs .centered {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 40%;
+    font-size: 450%;
+}
