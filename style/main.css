@@ -17,7 +17,8 @@
 .header h2 {
     font-size: 150%;
     margin-left: 40px;
-    color: #4A3D82;
+    /*color: #4A3D82;*/
+    color: lightskyblue;
 }
 
 /* Navigation Menu */
@@ -45,7 +46,7 @@
 }
 
 .active {
-    background-color: rgb(39, 82, 212);
+    background-color: rgb(24, 70, 209);
     color: white;
 }
 

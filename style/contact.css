@@ -1,12 +1,18 @@
+body {
+    background-color: #8FD8E9;
+}
+
 .container {
+    margin-left: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
 
 
 form {
-    border: solid 2px royalblue;
-    width: 25%;
+    border: solid 5px royalblue;
+    width: 30%;
     margin-top: 25px;
     margin-left: 20px;
     padding: 10px;
@@ -14,18 +20,33 @@ form {
     overflow: auto;
 }
 
+input, textarea {
+    padding: 5px;
+    margin: 3px;
+    border: 1px royalblue solid;
+}
+
 .contact-info {
     margin-left: 150px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .higher {
     display: flex;
     flex-direction: row;
+    width: 400px;
 }
 
 #hours {
-    margin-left: 40px;
+    margin-left: auto;
+    text-align: center;
+}
+
+ iframe {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
 }

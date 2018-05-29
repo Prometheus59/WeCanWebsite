@@ -12,28 +12,28 @@
 
 <body>
     <div class="header">
-        <img src="/images/transparentLogo.png" alt="WeCan Logo" width="10%">
+        <img src="../images/transparentLogo.png" alt="WeCan Logo" width="10%">
         <h2> WeCan Insurance Inc.</h2>
         <button id="contact-btn">
-            <a href="#contact">Contact</a>
+            <a href="contact.html">Contact</a>
         </button>
         <br>
     </div>
 
     <div class="menu">
-        <a href="/index.html">Home</a>
-        <a href="#services">Services</a>
+        <a href="../index.html">Home</a>
+        <a href="services.html">Services</a>
         <a href="http://www.soundinsurance.ca" target="_blank">Sound Insurance</a>
-        <a href="#contact" class="active">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
     </div>
 
     <div class="container">
         <form id="contact">
-            Name:
+            Name (required):
             <br>
             <input type="text" name="name" size="40" autofocus>
             <br>
-            <br> Email:
+            <br> Email (required):
             <br>
             <input type="email" name="email" size="40">
             <br>
@@ -48,6 +48,8 @@
             <br> Message:
             <br>
             <textarea type="text" rows="5" cols="50" name="message"></textarea>
+            <br>
+            <input type="submit" value="submit">
         </form>
 
         <div class="contact-info">
@@ -61,13 +63,14 @@
                     <br>
                 </div>
                 <div id="hours">
-                    Hours of Operation Monday-Friday
+                    Hours of Operation
+                    <br> Monday-Friday
                     <br> 8:30am - 4:30pm
                 </div>
             </div>
             <div class="gmaps">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.3839285416866!2d-79.386140384591!3d43.847870479115066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2b4a7062e60b%3A0x46397fe8eef86ff1!2s1+West+Pearce+St%2C+Richmond+Hill%2C+ON+L4B+3K3!5e0!3m2!1sen!2sca!4v1527169756193"
-                    width="150%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
