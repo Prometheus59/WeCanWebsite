@@ -1,0 +1,8 @@
+.services li {
+    display: inline;
+    margin: 40px;
+}
+
+#display {
+    display: block;
+}
