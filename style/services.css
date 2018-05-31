@@ -1,8 +1,10 @@
 .services li {
     display: inline;
     margin: 40px;
+    border: solid 1px royalblue;
+    padding: 5px;
 }
 
-#display {
+.display {
     display: block;
 }
