@@ -1,10 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .services li {
     display: inline;
     margin: 40px;
     border: solid 1px royalblue;
     padding: 5px;
+    text-align: center;
+}
+
+.services li:hover {
+    cursor: pointer;
 }
 
 .display {
+    display: none;
+    text-align: center;
+}
+
+#car {
     display: block;
 }
